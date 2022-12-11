@@ -8,7 +8,7 @@
 html, body {  
   font-size: 32px;
   font-family: 'League Spartan', sans-serif;
-  font-weight: 700;
+  font-weight: 700;  
 }
 
 .app {
@@ -41,6 +41,7 @@ html, body {
   font-size: 50px;
   color: white;
   padding: 0 20px;
+  overflow: hidden;
 }
 
 .teclado {
@@ -61,3 +62,142 @@ html, body {
 }
 
 
+/* Theme 2 */
+
+.theme2 {
+  background-color: hsl(0, 0%, 98%);  
+}
+
+.theme2 .header p {
+  color: hsl(60, 10%, 19%);
+}
+
+.theme2 .header .contenedor-theme {
+  color: hsl(60, 10%, 19%);
+}
+
+.theme2 .header .contenedor-theme .contenedor-boton .botones div {
+  background-color: hsl(0, 5%, 80%);
+}
+
+.theme2 .pantalla {
+  background-color: hsl(0, 0%, 90%);
+  color: hsl(60, 10%, 19%);
+}
+
+.theme2 .teclado {
+  background-color: hsl(0, 5%, 80%);  
+}
+
+.theme2 .boton {
+  background-color: hsl(45, 7%, 95%);  
+  box-shadow: 0 5px 0 0 hsl(35, 11%, 61%);
+  color: hsl(60, 10%, 19%);
+}
+
+.theme2 .boton:active {
+  transform: translateY(2px);
+  box-shadow: 0 3px 0 0 hsl(35, 11%, 40%);
+}
+
+.theme2 .boton-clear {
+  background-color: hsl(185, 42%, 37%);  
+  box-shadow: 0 5px 0 0 hsl(185, 58%, 25%);
+  color: white;
+}
+
+.theme2 .boton-clear:active {
+  transform: translateY(2px);
+  box-shadow: 0 3px 0 0 hsl(181, 100%, 12%);
+}
+
+.theme2 .operador {
+  background-color: hsl(25, 98%, 40%);  
+  box-shadow: 0 5px 0 0 hsl(25, 99%, 27%);
+  color: white;
+}
+
+.theme2 .operador:active {
+  transform: translateY(2px);
+  box-shadow: 0 3px 0 0 hsl(25, 99%, 16%);
+}
+
+/* Theme 3 */
+
+.theme3 {
+  background-color: hsl(289, 54%, 22%);  
+}
+
+.theme3 .header p {
+  color: hsl(61, 100%, 48%);
+}
+
+.theme3 .header .contenedor-theme {
+  color: hsl(61, 100%, 48%);
+}
+
+.theme3 .header .contenedor-theme .contenedor-boton .botones div {
+  background-color: hsl(289, 54%, 52%);
+}
+
+.theme3 .header .contenedor-theme .contenedor-boton .botones div:nth-child(3) span {
+  background-color: hsl(61, 100%, 48%);
+}
+
+.theme3 .pantalla {
+  background-color: hsl(289, 54%, 52%);
+  color: hsl(61, 100%, 48%);
+}
+
+.theme3 .teclado {
+  background-color: hsl(289, 54%, 52%);  
+}
+
+.theme3 .boton {
+  background-color: hsl(61, 100%, 48%);  
+  box-shadow: 0 5px 0 0 hsl(61, 100%, 25%);
+  color: hsl(60, 10%, 19%);
+}
+
+.theme3 .boton:active {
+  transform: translateY(2px);
+  box-shadow: 0 3px 0 0 hsl(61, 100%, 18%);
+}
+
+.theme3 .boton-clear {  
+  background-color: hsl(181, 100%, 45%);  
+  box-shadow: 0 5px 0 0 hsl(181, 100%, 25%);
+  color: hsl(60, 10%, 19%);
+}
+
+.theme3 .boton-clear:active {
+  transform: translateY(2px);
+  box-shadow: 0 3px 0 0 hsl(181, 100%, 15%);
+}
+
+.theme3 .operador {
+  background-color: hsl(317, 100%, 62%);  
+  box-shadow: 0 5px 0 0 hsl(317, 100%, 32%);
+  color: hsl(60, 10%, 19%);
+}
+
+.theme3 .operador:active {
+  transform: translateY(2px);
+  box-shadow: 0 3px 0 0 hsl(317, 100%, 20%);
+}
+
+@media screen and (max-width: 450px) {
+  .contenedor-principal {
+    width: 100%;
+    padding: 15px;
+    gap: 15px; 
+    height: 100%;   
+    border-radius: 0;
+    align-content: center;
+  }
+
+  .teclado {
+    gap: 15px;  
+    padding: 20px 20px 25px;
+  }  
+}

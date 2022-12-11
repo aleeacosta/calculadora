@@ -14,6 +14,11 @@
   box-shadow: 0 5px 0 0 hsl(28, 16%, 65%);
 }
 
+.boton:active {
+  transform: translateY(2px);
+  box-shadow: 0 3px 0 0 hsl(28, 16%, 30%);
+}
+
 .operador {
   background-color: hsl(6, 63%, 50%) ;
   color: white;
@@ -21,9 +26,26 @@
   box-shadow: 0 5px 0 0 hsl(6, 70%, 34%);
 }
 
+.operador:active {
+  transform: translateY(2px);
+  box-shadow: 0 3px 0 0 hsl(6, 70%, 28%);;
+}
+
 .boton-clear {
   font-size: 25px;
   color: white;
   background-color: hsl(225, 21%, 49%);
   box-shadow: 0 5px 0 0 hsl(224, 28%, 35%);
+}
+
+.boton-clear:active {
+  transform: translateY(2px);
+  box-shadow: 0 3px 0 0 hsl(224, 28%, 28%);
+}
+
+
+@media screen and (max-width: 450px) {
+  .boton {
+    height: 40px;
+  }
 }

@@ -1,0 +1,80 @@
+.header {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+.header p {
+  font-size: 38px;
+  margin-left: 10px;
+}
+
+.contenedor-theme {
+  display: flex;
+  align-items: flex-end;
+  font-size: 13px;
+  gap: 25px;
+}
+
+.contenedor-theme > div:nth-child(1) {
+  height: 25px;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+}
+
+.contenedor-boton {
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;  
+}
+
+.numeros {
+  display: flex;  
+}
+
+.numeros div {
+  display: flex; 
+  align-items: center;
+  justify-content: center; 
+  width: 25px;
+  height: 25px;  
+}
+
+.botones {
+  display: flex; 
+  align-items: center;
+  justify-content: center; 
+}
+
+.botones div {
+  display: flex; 
+  align-items: center;
+  justify-content: center; 
+  width: 25px;
+  height: 25px;
+  background-color: hsl(223, 31%, 20%);
+}
+
+div.botones > div:nth-child(1) {
+  border-radius: 15px 0 0 15px;
+}
+
+div.botones > div:nth-child(3) {
+  border-radius: 0 15px 15px 0;
+}
+
+.boton-rojo {
+  width: 15px;
+  height: 15px;
+  background-color: hsl(6, 63%, 50%);
+  border-radius: 50%;
+}
+
+.boton-transparente {
+  background-color: transparent;
+}
