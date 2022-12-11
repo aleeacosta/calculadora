@@ -1,0 +1,29 @@
+.boton {
+  color: hsl(221, 14%, 31%);
+  background-color: hsl(30, 25%, 89%);
+  padding: 10px;  
+  height: 50px;
+  display: flex;
+  flex: 1 1;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  font-size: 35px;  
+  cursor: pointer;
+  user-select: none;
+  box-shadow: 0 5px 0 0 hsl(28, 16%, 65%);
+}
+
+.operador {
+  background-color: hsl(6, 63%, 50%) ;
+  color: white;
+  font-size: 25px;
+  box-shadow: 0 5px 0 0 hsl(6, 70%, 34%);
+}
+
+.boton-clear {
+  font-size: 25px;
+  color: white;
+  background-color: hsl(225, 21%, 49%);
+  box-shadow: 0 5px 0 0 hsl(224, 28%, 35%);
+}
