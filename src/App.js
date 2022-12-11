@@ -55,7 +55,7 @@ function App() {
   const calcularResultado = () => {
     if (input){
       const resultado = evaluate(input);
-      setInput(format(resultado, {precision: 12}) );
+      setInput(format(resultado, {precision: 10}) );
     }
     else {
       alert('Primero debe ingresar un valor para calcular.')

@@ -5,15 +5,23 @@
   padding: 0;
 }
 
+#root {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 html, body {  
   font-size: 32px;
   font-family: 'League Spartan', sans-serif;
-  font-weight: 700;  
+  font-weight: 700; 
+  height: 100%; 
+  background-color: hsl(222, 26%, 31%, 60%);
 }
 
-.app {
-  background-color: hsl(222, 26%, 31%, 90%);
-  height: 100vh;
+.app {  
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -190,14 +198,22 @@ html, body {
   .contenedor-principal {
     width: 100%;
     padding: 15px;
-    gap: 15px; 
+    gap: 25px; 
     height: 100%;   
     border-radius: 0;
     align-content: center;
   }
 
   .teclado {
-    gap: 15px;  
+    gap: 20px;  
     padding: 20px 20px 25px;
   }  
 }
+
+@media screen and (max-height: 670px) {
+  .teclado {  
+    padding: 15px 15px 20px;
+    gap: 15px;
+  }
+}
+
