@@ -79,3 +79,9 @@ div.botones > div:nth-child(3) {
 .boton-transparente {
   background-color: transparent;
 }
+
+@media screen and (max-height: 670px) {  
+  .header {
+    height: 50px;
+  }  
+}
