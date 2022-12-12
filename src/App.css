@@ -36,6 +36,7 @@ html, body {
   background-color: hsl(222, 26%, 31%);
   padding: 25px;
   border-radius: 20px;
+  transition: 0.3s;
 }
 
 .pantalla {
@@ -148,7 +149,7 @@ html, body {
 }
 
 .theme3 .header .contenedor-theme .contenedor-boton .botones div:nth-child(3) span {
-  background-color: hsl(61, 100%, 48%);
+  background-color: hsl(61, 100%, 48%);  
 }
 
 .theme3 .pantalla {
